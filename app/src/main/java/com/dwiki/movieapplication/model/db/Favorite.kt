@@ -12,6 +12,7 @@ data class Favorite(
     @PrimaryKey @ColumnInfo(name = "id") val id:Int,
     @ColumnInfo(name = "title") val title:String,
     @ColumnInfo(name = "poster_path") val poster_path:String,
-    @ColumnInfo(name = "release_data") val release_date:String
+    @ColumnInfo(name = "release_data") val release_date:String,
+    @ColumnInfo(name = "overview") val overview:String,
 
 )

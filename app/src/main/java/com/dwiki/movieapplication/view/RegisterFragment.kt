@@ -54,7 +54,7 @@ class RegisterFragment : Fragment() {
                             Toast.makeText(requireContext(), "Berhasil Register, Silahkan Login", Toast.LENGTH_SHORT).show()
                             Navigation.findNavController(binding.root).navigate(R.id.action_registerFragment_to_loginFragment)
                         } else {
-                            Toast.makeText(requireContext(), "Gagal register", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(requireContext(), "Gagal register, Periksa email dan password anda", Toast.LENGTH_SHORT).show()
                         }
                     }
                     .addOnFailureListener(requireActivity()) {

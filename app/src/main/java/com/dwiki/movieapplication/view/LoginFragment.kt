@@ -57,7 +57,7 @@ class LoginFragment : Fragment() {
                     startActivity(intent)
                     activity?.finish()
                 } else {
-                    Toast.makeText(requireContext(), "Gagal Login", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireContext(), "Gagal Login, Periksa Email dan Password", Toast.LENGTH_SHORT).show()
                 }
             }
             .addOnFailureListener(requireActivity()) {

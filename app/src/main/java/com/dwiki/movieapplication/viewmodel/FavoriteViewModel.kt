@@ -13,9 +13,9 @@ import javax.inject.Inject
 @HiltViewModel
 class FavoriteViewModel @Inject constructor( private val mainRepository: MainRepository):ViewModel() {
 
-    fun insertMovie(title:String,id:Int,posterPath:String,releaseDate:String){
+    fun insertMovie(title:String,id:Int,posterPath:String,releaseDate:String,overview:String){
         viewModelScope.launch {
-            val movie = Favorite(id,title,posterPath,releaseDate)
+            val movie = Favorite(id,title,posterPath,releaseDate,overview)
             mainRepository.insertFavoriteMovie(movie)
         }
     }

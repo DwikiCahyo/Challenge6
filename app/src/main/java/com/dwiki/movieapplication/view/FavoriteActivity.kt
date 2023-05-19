@@ -6,6 +6,7 @@ import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dwiki.movieapplication.adapter.FavoriteAdapter
 import com.dwiki.movieapplication.databinding.ActivityFavoriteBinding
+import com.dwiki.movieapplication.model.db.Favorite
 import com.dwiki.movieapplication.viewmodel.FavoriteViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -34,6 +35,7 @@ class FavoriteActivity : AppCompatActivity() {
                 favoriteAdapter= FavoriteAdapter(it)
                 adapter = favoriteAdapter
             }
+
 
         }
 

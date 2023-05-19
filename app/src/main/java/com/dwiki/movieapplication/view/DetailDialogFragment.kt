@@ -35,7 +35,6 @@ class DetailDialogFragment(
     private val viewModel:FavoriteViewModel by viewModels()
     private var isMovieFavorite  = false
 
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -85,7 +84,7 @@ class DetailDialogFragment(
             isMovieFavorite = !isMovieFavorite
             if (isMovieFavorite) {
                 if (idMovie != null) {
-                    viewModel.insertMovie(title, idMovie, imagePath, releaseDate)
+                    viewModel.insertMovie(title, idMovie, imagePath, releaseDate,overview)
                     Toast.makeText(
                         requireContext(),
                         "Berhasil Ditambahkan ke Favorite",
@@ -99,6 +98,7 @@ class DetailDialogFragment(
                     viewModel.removeMovie(idMovie)
                     Toast.makeText(requireContext(), "Berhasil dihapus", Toast.LENGTH_SHORT)
                         .show()
+                    dismiss()
                 }
             }
         }
