@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Movie Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="trending_movie">Trending Movie</string>
+    <string name="movieflix" translatable="false">MovieFlix</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Dont have account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="update">Update</string>
+    <string name="upcoming_movie">Upcoming Movie</string>
+    <string name="image_app" translatable="false">image app</string>
+    <string name="favorite_movie" translatable="false"><![CDATA[Favorite Movie >]]></string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="favorite" translatable="false">favorite</string>
+    <string name="content_desc" translatable="false">Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.</string>
+</resources>
