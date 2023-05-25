@@ -6,12 +6,13 @@
 ## Android Tech Stack:
 
 - MVVM.
--Firebase Auth
+- Firebase Auth
 - Firebase Crashlytics
 - Dependency Injection
 - Retrofit
 - Navigaiton Component
 - Room Database
+- Lint
 
 ## Screenshot Application:
 
