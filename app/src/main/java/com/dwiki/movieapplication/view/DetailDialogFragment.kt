@@ -90,6 +90,7 @@ class DetailDialogFragment(
                         "Berhasil Ditambahkan ke Favorite",
                         Toast.LENGTH_SHORT
                     ).show()
+
                 } else {
                     Toast.makeText(requireContext(), "gagal Ditambakan", Toast.LENGTH_SHORT).show()
                 }
