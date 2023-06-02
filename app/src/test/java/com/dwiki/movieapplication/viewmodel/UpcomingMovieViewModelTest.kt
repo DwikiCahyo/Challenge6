@@ -54,7 +54,7 @@ class UpcomingMovieViewModelTest{
         val actualResponse = upcomingViewModel.upcomingMovie(token).value
 
         Mockito.verify(repository).upcomingMovie(token)
-        assertEquals(expectedResponse.value, actualResponse!!.message)
+        assertEquals(expectedResponse.value, actualResponse)
 
     }
 

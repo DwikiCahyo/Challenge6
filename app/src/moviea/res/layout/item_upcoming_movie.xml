@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:id="@+id/cv_upcoming_film"
+    android:background="@color/backgroud_color"
+    android:layout_marginBottom="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/iv_poster_film_upcoming"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image_app"
+            tools:src = "@tools:sample/backgrounds/scenic"
+            android:scaleType="fitXY" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/layout_content_film"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_upcoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/iv_poster_image"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="10dp"
+            tools:text="Guardians of the Galaxy Volume 3"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_release_date_upcoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/neon_green"
+            android:fontFamily="@font/poppins_regular"
+            tools:text="Release Date : 2023-05-03"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

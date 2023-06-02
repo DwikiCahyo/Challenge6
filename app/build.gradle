@@ -38,6 +38,23 @@ android {
         viewBinding true
     }
 
+    flavorDimensions("movie")
+    productFlavors{
+        moviea{
+            applicationIdSuffix ".moviea"
+            dimension "movie"
+        }
+        movieb{
+            applicationIdSuffix ".movieb"
+            dimension "movie"
+        }
+        moviec{
+            applicationIdSuffix ".moviec"
+            dimension "movie"
+        }
+
+    }
+
     lintOptions {
         lintConfig file('lint.xml')
         abortOnError false

@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:602745035836:android:e7bfb7d6da05d7c0453739",
         "android_client_info": {
-          "package_name": "com.dwiki.movieapplication"
+          "package_name": "com.dwiki.movieapplication.moviec"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "602745035836-qbbppgdk4h0h6i2atkuatpuhbl7d2orl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.dwiki.movieapplication",
+            "package_name": "com.dwiki.movieapplication.moviec",
             "certificate_hash": "168f6c08510cfb98ca291a3ab1d2c496a1ae11a6"
           }
         },
